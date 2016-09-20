@@ -1,0 +1,114 @@
+{
+    "author": "hitormiss",
+    "dependencies": {
+        "pebble-clay": "^1.0.2",
+        "pebble-events": "^1.1.0",
+        "pebble-fctx": "^1.3.0",
+        "pebble-simple-health": "^1.0.5"
+    },
+    "keywords": [],
+    "name": "cut-out",
+    "pebble": {
+        "capabilities": [
+            "configurable",
+            "health"
+        ],
+        "displayName": "CUT OUT",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "IMAGE",
+            "BACKGROUND",
+            "LOCALE",
+            "FORMAT_DATE",
+            "FORMAT_TIME",
+            "TIME_24",
+            "DL_Index",
+            "DL_DataLength",
+            "DL_DataChunk",
+            "DL_ChunkSize",
+            "DL_Complete",
+            "DL_Start",
+            "URL",
+            "COLOR_1",
+            "COLOR_2",
+            "FORMAT_EXTRA"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "data/FONT.ffont",
+                    "name": "FONT",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "images/bw_diagonal.png",
+                    "name": "BACKGROUND_DIAGONAL",
+                    "targetPlatforms": [
+                        "aplite",
+                        "diorite"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bw_brick.png",
+                    "name": "BACKGROUND_BRICK",
+                    "targetPlatforms": [
+                        "aplite",
+                        "diorite"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/icon.png",
+                    "menuIcon": true,
+                    "name": "ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/flowers.png",
+                    "name": "BACKGROUND_FLOWERS",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/background_ocean.png",
+                    "name": "BACKGROUND_OCEAN",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/background_beach.png",
+                    "name": "BACKGROUND_BEACH",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/background_grass.png",
+                    "name": "BACKGROUND_GRASS",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "diorite"
+        ],
+        "uuid": "c9181276-2281-48ab-a330-6784e9760735",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.8.0"
+}
